@@ -1,22 +1,29 @@
-Rule-Based Chatbot using Python & Tkinter
+# 🤖 Rule-Based Chatbot
 
- Project Overview
-This project is a Rule-Based Chatbot developed using Python and Tkinter.The chatbot interacts with users through a graphical user interface (GUI) and provides responses based on predefined rules. It demonstrates the fundamentals of chatbot development, GUI programming, and event-driven applications in Python.
+A simple Rule-Based Chatbot built using Python and Tkinter that responds to user greetings and frequently asked questions using predefined rules.
 
- Features
-Interactive and user-friendly GUI
-Responds to greetings and common questions
-Uses dictionary-based rule matching
-Handles unknown queries with a default response
-Lightweight and easy to customize
-Beginner-friendly Python project
+## Features
+* Interactive graphical user interface (GUI)
+* Responds to greetings and common questions
+* Dictionary-based rule matching
+* Handles unknown queries with default responses
+* Beginner-friendly Python project
+* Easy to customize and extend
 
- Technologies Used
-Python
-Tkinter
-Dictionaries
-Functions
-Conditional Statements
+## Technologies Used
+* Python
+* Tkinter
+* Dictionaries
+* Functions
+* Conditional Statements
 
-Run:
+## Run the Project
+```bash
 python chatbot.py
+```
+## How It Works
+* User enters a message in the chat window
+* The chatbot converts the input to lowercase
+* The program checks predefined rules for matching keywords
+* If a match is found, the corresponding response is displayed
+* If no match is found, a default response is returned
